@@ -9,5 +9,7 @@
 # use function with loop
 
 # assign variables
+base_value = 6
+exponent_value = 3
 
 # print to check
