@@ -21,3 +21,4 @@ exponent_value = 3
 result = raise_exponent(base_value, exponent_value)
 
 # print to check
+print(f"{base_value} raised to the power of {exponent_value} is: {result}")
