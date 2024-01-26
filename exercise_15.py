@@ -7,9 +7,17 @@
 # Note here exp is a non-negative integer, and the base is an integer.
 
 # use function with loop
+def raise_exponent(base, exponent):
+    result = 1
+
+    for i in range(exponent):
+        result *= base
+
+    return result
 
 # assign variables
 base_value = 6
 exponent_value = 3
+result = raise_exponent(base_value, exponent_value)
 
 # print to check
